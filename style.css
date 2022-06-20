@@ -1,3 +1,7 @@
+body{
+  user-select: none;
+}
+
 .top{
   font-family: 'Economica';
   font-size: 400%;
