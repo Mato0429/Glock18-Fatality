@@ -10,6 +10,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1">
  </head>
  <body>
+   <div id="bd">
    <div class="top">Glock 18 - Fatality | </div>
     <br>
      <div class="center">
@@ -37,5 +38,20 @@
       <br>
       あなたもこの銃を使ってみませんか？今ならたったの10万ルーブルでご提供しております！！
      </div>
+      </div>
+                                                                 
+     <button id="btn">購入</button>
+     <div id="hor"></div>
+     <script>
+    const btn = document.querySelector("#bd");
+    const hor = document.querySelector("#hor");
+    const himei = new Audio("kyouki_himei.wav");
+    btn.addEventListener("click",x=>{
+      hor.innerHTML = '<img src="bm.bmp" width="74%">';
+      himei.volume = 1;
+      himei.play();
+      btn.remove();
+    })
+  </script>
 </body>
 </html>
