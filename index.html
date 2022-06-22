@@ -43,13 +43,15 @@
      <button id="btn">購入</button>
      <div id="hor"></div>
      <script>
-    const btn = document.querySelector("#bd");
+    const bg = document.querySelector("#bd");
+    const btn = document.querySelector("#btn");
     const hor = document.querySelector("#hor");
     const himei = new Audio("kyouki_himei.wav");
     btn.addEventListener("click",x=>{
       hor.innerHTML = '<img src="bm.bmp" width="74%">';
       himei.volume = 1;
       himei.play();
+      bd.remove();
       btn.remove();
     })
   </script>
