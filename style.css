@@ -1,24 +1,4 @@
 body{
-  user-select: none;
-  cursor: pointer;
-}
-
-.top{
-  font-family: 'Economica';
-  font-size: 400%;
-  margin-left: 2.5%;
-}
-
-.center{
-  font-size: 100%;
-  margin-left: 2.5%;
-  font-family: 'Economica';
-}
-
-.img{
-  width:10%;
-}
-
-.img2{
-  width: 20%;
+  text-align: center;
+  background-color: black;
 }
